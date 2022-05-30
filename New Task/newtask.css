@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: #30A5CA
+    ;
+    background: linear-gradient(0deg, rgba(48, 165, 202, 0.58), rgba(48, 165, 202, 0.58)), url(./Images/backgroundimageblack.png);
+    background-blend-mode: overlay, normal;
+    background-repeat: no-repeat;
+}
+
+/* menu style */
+
+header{
+    padding: 0 5rem;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* left menu */
+
+header nav .left-side-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+header nav .left-side-menu .logo{
+    position: absolute;
+}
+
+/* middle menu */
+
+header nav .left-side-menu .middle-menu{
+    display: flex;
+    margin-left: 25vw;
+}
+
+header nav .left-side-menu .middle-menu a {
+    margin-right: 4rem;
+    text-decoration: none;
+    color: white;
+}
+
+/* right menu */
+
+header .right-side-menu{
+    justify-content: end;
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    border-radius: 60px;
+    margin-top: 8vh;
+    margin-left: 80vw;
+    width: 105px;
+    height: 55px;
+    box-sizing: border-box;
+    position: absolute;
+    
+}
+
+header .right-side-menu .right-menu{
+    margin-left: 20%;
+    margin-right: 20%px;
+    margin-top: 1.5vh;
+    padding-top: 8%;
+    padding-left: 9%;
+    align-items: center;
+}
